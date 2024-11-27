@@ -32,7 +32,7 @@ const AboutMe = () => {
                     <br />
                     <h4 style={Handwritten}>(And how to fix ‘em, or at least, try to.)</h4>
                 </div>
-                <img style={miniImg} src="./public/me2.png" />
+                <img style={miniImg} src="/me2.png" />
             </div>
         </div>
     )

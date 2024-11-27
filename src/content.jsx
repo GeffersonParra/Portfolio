@@ -50,7 +50,7 @@ const Content = ({ isDarkMode }) => {
             <div className="mt-4" style={cardStyle}>
                 <h1 style={hashTag}>#LaravelRULES</h1>
             </div>
-            <img style={profileStyle} src="./public/me.png" />
+            <img style={profileStyle} src="/me.png" />
             <div style={subCardStyle} className="d-flex gap-5">
                 <div style={personalInfo} className="col-5 align-items-start">
                     <h1 style={{ fontWeight: "lighter" }} className="text-center">Gefferson Ferney Parra Vargas</h1>
