@@ -1,0 +1,36 @@
+.light-mode,
+.dark-mode {
+    position: relative;
+    transition: color 0.5s ease;
+    display: flex;
+}
+
+.light-mode {
+    background-image: url('./public/lightback.png');
+    color: #000000;
+    animation: fadeDark 1s ease forwards;
+}
+
+.dark-mode {
+    background-image: url('./public/darkback.png');
+    color: #ffffff;
+    animation: fadeLight 1s ease forwards;
+}
+
+@keyframes fadeLight {
+    0% {
+        background-image: url('./public/lightback.png');
+    }
+    100% {
+        background-image: url('./public/darkback.png'); /* Cambia la imagen de fondo */
+    }
+}
+
+@keyframes fadeDark {
+    0% {
+        background-image: url('./public/darkback.png'); /* Cambia la imagen de fondo */
+    }
+    100% {
+        background-image: url('./public/lightback.png');
+    }
+}
