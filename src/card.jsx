@@ -54,7 +54,7 @@ const Card = ({ isDarkMode, time, subtitle, children }) => {
         <div style={cardStyle} className="col-11 mx-auto">
             <div style={subCard} className="mt-3 mb-5 col-10 mx-auto overflow-hidden">
                 <div className="d-flex gap-2">
-                    <img style={subProfileStyle} src="./public/me.png" />
+                    <img style={subProfileStyle} src="/me.png" />
                     <div className="d-flex flex-column mt-1" style={subInfo}>
                         <h3>Gefferson Ferney Parra Vargas</h3>
                         <h5 style={at}>@JustAnotherDev</h5>
