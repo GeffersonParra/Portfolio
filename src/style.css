@@ -6,31 +6,31 @@
 }
 
 .light-mode {
-    background-image: url('lightback.PNG');
+    background-image: url('lightback.png');
     color: #000000;
     animation: fadeDark 1s ease forwards;
 }
 
 .dark-mode {
-    background-image: url('darkback.PNG');
+    background-image: url('darkback.png');
     color: #ffffff;
     animation: fadeLight 1s ease forwards;
 }
 
 @keyframes fadeLight {
     0% {
-        background-image: url('lightback.PNG');
+        background-image: url('lightback.png');
     }
     100% {
-        background-image: url('darkback.PNG');
+        background-image: url('darkback.png');
     }
 }
 
 @keyframes fadeDark {
     0% {
-        background-image: url('darkback.PNG');
+        background-image: url('darkback.png');
     }
     100% {
-        background-image: url('lightback.PNG');
+        background-image: url('lightback.png');
     }
 }
