@@ -13,14 +13,8 @@ const Layout = () => {
         setIsDarkMode((prevMode) => !prevMode)
     }
 
-    const LayoutStyle = {
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-    }
-
     return (
-        <div className={isDarkMode ? "dark-mode" : "light-mode"} style={LayoutStyle}>
+        <div className={`${isDarkMode ? "dark-mode" : "light-mode"} col-12 d-flex flex-column`}>
             <Header toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
             <Content isDarkMode={isDarkMode} />
             <Card isDarkMode={isDarkMode} time={"Yesterday at 16:01"} subtitle={"About Me"}>
