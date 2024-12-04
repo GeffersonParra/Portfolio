@@ -1,6 +1,5 @@
 .light-mode,
 .dark-mode {
-    position: relative;
     transition: color 0.5s ease;
     display: flex;
 }
@@ -32,5 +31,112 @@
     }
     100% {
         background-image: url('/lightback.png');
+    }
+}
+
+.dark-btn{
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.light-btn{
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+.mini-menu{
+    position: fixed;
+    height: fit-content;
+    width: 20vh;
+    top: 10vh;
+    right: 3vh;
+    border-radius: 10px;
+    background-color: #ffffff66;
+    transition: color 0.1s ease
+}
+
+.mini-light{
+    background-color: #ffffff;
+}
+
+.mini-dark{
+    background-color: #080705;
+}
+
+.personal{
+    margin-top: 10vh !important;
+}
+
+@media (max-width: 992px) {
+    .mini-profile-pic{
+        position: absolute !important;
+        left: 10vw !important;
+        margin-top: -6rem !important;
+        height: 11rem !important;
+        width: 11rem !important;
+    }
+
+    .black-card{
+        height: 14rem !important;
+        overflow-x: hidden;
+    }
+
+    .black-card h1{
+        font-size: 4rem !important;
+        left: -5rem !important;
+    }
+
+    .red-card {
+        height: 14.5rem !important;
+    }
+
+    .red-card h1{
+        font-size: 3vh !important;
+        left: -4rem !important;
+        width: 100%;
+    }
+
+    .personal {
+        margin-bottom: 5vh !important;
+        width: 100% !important;
+        margin-left: 15vw !important;
+    }
+
+    .personal h1{
+        text-align: start !important;
+        width: 90%;
+    }
+
+    .personal h6{
+        text-align: start !important;
+    }
+
+    .personal div{
+        width: 10%;
+        justify-content: start !important;
+    }
+
+    .personal div h1{
+        text-align: start !important;
+    }
+
+    .ilove{
+        position: absolute !important;
+        width: fit-content;
+        margin-left: 53vw;
+    }
+
+    .mini-photo-post{
+        height: 5rem !important;
+        width: 5rem !important;
+        margin-left: 1vw !important;
+    }
+
+    .reacts {
+        margin-top: -2rem !important;
+    }
+
+    .reacts h2 {
+        font-size:1.4rem !important;
     }
 }
