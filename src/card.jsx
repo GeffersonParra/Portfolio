@@ -2,7 +2,8 @@ import React from "react";
 
 const Card = ({ isDarkMode, time, subtitle, children }) => {
     const cardStyle = {
-        height: "auto",
+        height: "fit-content",
+        marginBottom: "-5vh",
         display: "flex",
         justifyContent: "center",
         fontFamily: "Oranienbaum, serif",
@@ -28,24 +29,22 @@ const Card = ({ isDarkMode, time, subtitle, children }) => {
     }
 
     const at = {
-        position: "relative",
-        top: "-1.5vh",
-        color: "gray"
+        color: "gray",
     }
 
     const hour = {
-        position: "relative",
-        top: "-2.6vh",
-        color: "gray"
+        color: "gray",
     }
 
     const title = {
         position: "relative",
+        marginTop: "",
         fontFamily: "Oranienbaum, serif",
-        top: "-3vh"
     }
 
     const text = {
+        position: "relative",
+        marginTop: "5vh",
         fontFamily: "Oranienbaum, serif",
     }
 
@@ -55,18 +54,20 @@ const Card = ({ isDarkMode, time, subtitle, children }) => {
                 <div className="d-flex gap-2">
                     <img style={subProfileStyle} className="mini-photo-post" src="/me.png" />
                     <div className="d-flex flex-column mt-1" style={subInfo}>
-                        <h3>Gefferson Ferney Parra Vargas</h3>
-                        <h5 style={at}>@JustAnotherDev</h5>
-                        <h5 style={hour}>{time}</h5>
+                        <h3 className="mt-1">Gefferson Ferney Parra Vargas</h3>
+                        <div>
+                            <h5 style={at} className="at">@JustAnotherDev</h5>
+                            <h5 style={hour} className="hour">{time}</h5>
+                        </div>
                     </div>
                 </div>
                 <div className="d-flex col-11 mx-auto flex-column">
-                    <h1 style={title} className="mt-3">{subtitle}</h1>
+                    <h1 style={title}>{subtitle}</h1>
                     <div style={text}>{children}</div>
                     <div className="d-flex gap-5 reacts">
-                        <h2 style={{color:"gray"}} className="mb-4"><i class='bx bx-heart'></i> Like</h2>
-                        <h2 style={{color:"gray"}} className="mb-4"><i class='bx bx-comment'></i> Comment</h2>
-                        <h2 style={{color:"gray"}} className="mb-4"><i class='bx bx-share' ></i> Share</h2>
+                        <h2 style={{ color: "gray" }} className="mb-4"><i class='bx bx-heart'></i> Like</h2>
+                        <h2 style={{ color: "gray" }} className="mb-4"><i class='bx bx-comment'></i> Comment</h2>
+                        <h2 style={{ color: "gray" }} className="mb-4"><i class='bx bx-share' ></i> Share</h2>
                     </div>
                 </div>
             </div>

@@ -12,13 +12,6 @@ const AboutMe = () => {
         top: "-1rem"
     }
 
-    const miniImg = {
-        position:"relative",
-        top:"-10vh",
-        height:"40rem",
-        borderRadius: "100px"
-    }
-
     return (
         <div>
             <h4 style={Handwritten}>I'm sure you're wondering, who's this guy?</h4>
@@ -32,7 +25,7 @@ const AboutMe = () => {
                     <br />
                     <h4 style={Handwritten}>(And how to fix ‘em, or at least, try to.)</h4>
                 </div>
-                <img style={miniImg} className="d-none d-lg-flex" src="/me2.png" />
+                <img className="d-none d-lg-flex me2 mx-auto" src="/me2.png" />
             </div>
         </div>
     )
