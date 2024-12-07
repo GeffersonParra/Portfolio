@@ -17,8 +17,8 @@ const Technologies = ({ isDarkMode }) => {
     const cardStyle = {
         color: `${isDarkMode ? "white" : "black"}`,
         backgroundColor: `${isDarkMode ? '#454545' : '#ffffff'}`,
-        height: "65vw",
-        marginBottom: "5vh",
+        height: "fit-content",
+        marginBottom: "10vh",
         border: `solid 3px ${isDarkMode ? '#454545' : '#212121'}`,
         display: "flex",
         justifyContent: "center",
@@ -70,7 +70,7 @@ const Technologies = ({ isDarkMode }) => {
                         <div className="d-flex flex-column mx-auto col-6 col-lg-12">
                             <img src="/tailwind.png" className="mx-auto mb-lg-3" style={{ width: "9vw" }} />
                             <h1 className="text-center">Tailwind</h1>
-                            <p className="text-center" style={MiniHandWritten}>Not a big fan</p>
+                            <p className="text-center" style={MiniHandWritten}>Not a big fan.</p>
                         </div>
                         <div className="d-flex flex-column mx-auto col-6 col-lg-12">
                             <img src="/angular.png" className="mx-auto mb-lg-2" style={{ width: "9vw" }} />

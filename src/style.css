@@ -74,11 +74,15 @@
     border-radius: 10px;
 }
 
+.black-card h1{
+    font-size: 10vw;
+    margin-top: 4vw;
+}
+
 @media (max-width: 992px) {
     .mini-profile-pic{
         position: absolute !important;
         left: 10vw !important;
-        margin-top: -6rem !important;
         height: 11rem !important;
         width: 11rem !important;
     }
@@ -89,7 +93,8 @@
     }
 
     .black-card h1{
-        font-size: 4rem !important;
+        font-size: 5rem !important;
+        margin-top: 6vw;
         left: -5rem !important;
     }
 
@@ -106,7 +111,6 @@
     .personal {
         margin-bottom: 5vh !important;
         width: 100% !important;
-        margin-left: 15vw !important;
     }
 
     .personal h1{
@@ -130,7 +134,17 @@
     .ilove{
         position: absolute !important;
         width: fit-content;
-        margin-left: 53vw;
+        font-size: small !important;
+        display: none;
+        margin-left: 45vw;
+    }
+
+    .ilove h1{
+        font-size: 5vw !important;
+    }
+
+    .ilove h1 i{
+        font-size: 5vw !important;
     }
 
     .mini-photo-post{

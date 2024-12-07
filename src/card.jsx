@@ -61,7 +61,7 @@ const Card = ({ isDarkMode, time, subtitle, children }) => {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex col-11 mx-auto flex-column">
+                <div className="d-flex col-11 mx-auto flex-column mt-3">
                     <h1 style={title}>{subtitle}</h1>
                     <div style={text}>{children}</div>
                     <div className="d-flex gap-5 reacts">
