@@ -9,6 +9,7 @@ import Technologies from "./Technologies";
 import Perskills from "./perskills";
 import Projects from "./Projects";
 import Education from "./Education";
+import Contact from "./Contact";
 
 const Layout = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -36,6 +37,7 @@ const Layout = () => {
                 <Projects isDarkMode={isDarkMode}/>
             </Card>
             <Card isDarkMode={isDarkMode} time={"Yesterday at 13:42"} subtitle={"Contact"}>
+                <Contact isDarkMode={isDarkMode}/>
             </Card>
             <br />
             <br />

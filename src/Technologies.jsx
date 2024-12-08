@@ -30,7 +30,7 @@ const Technologies = ({ isDarkMode }) => {
             <h4 style={Handwritten}>¡Some of them are simply art! And I can create art with them...</h4>
             <div className="d-flex flex-column flex-lg-row col-12">
                 <div className="card col-12 col-lg-3 mx-auto" style={cardStyle}>
-                    <h3 className="text-center mt-3">Back-end</h3>
+                    <h3 className="text-center">Back-end</h3>
                     <div className="flex-wrap d-flex flex-lg-column">
                         <div className="d-flex flex-column mx-auto col-6 col-lg-12">
                             <img src="/laravel.png" className="mx-auto col-12" style={{ width: "8vw" }} />
@@ -55,7 +55,7 @@ const Technologies = ({ isDarkMode }) => {
                     </div>
                 </div>
                 <div className="card col-12 col-lg-3 mx-auto" style={cardStyle}>
-                    <h3 className="text-center mt-3 mt-lg-0">Front-end</h3>
+                    <h3 className="text-center">Front-end</h3>
                     <div className="flex-wrap d-flex flex-lg-column">
                         <div className="d-flex flex-column mx-auto col-6 col-lg-12">
                             <img src="/react.png" className="mx-auto" style={{ width: "8vw" }} />
@@ -64,7 +64,7 @@ const Technologies = ({ isDarkMode }) => {
                         </div>
                         <div className="d-flex flex-column mx-auto col-6 col-lg-12 mb-lg-5">
                             <img src="/bootstrap.png" className="mx-auto" style={{ width: "9vw" }} />
-                            <h1 className="text-center">Bootstap</h1>
+                            <h1 className="text-center">Bootstrap</h1>
                             <p className="text-center" style={MiniHandWritten}>Beautiful...</p>
                         </div>
                         <div className="d-flex flex-column mx-auto col-6 col-lg-12">
@@ -80,7 +80,7 @@ const Technologies = ({ isDarkMode }) => {
                     </div>
                 </div>
                 <div className="card col-12 col-lg-3 mx-auto" style={cardStyle}>
-                    <h3 className="text-center mt-3">Databases</h3>
+                    <h3 className="text-center">Databases</h3>
                     <div
                         className="flex-wrap d-flex flex-lg-column"
                         style={{
