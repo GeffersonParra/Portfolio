@@ -13,7 +13,7 @@ const AboutMe = () => {
     }
 
     return (
-        <div>
+        <div id="aboutme">
             <h4 style={Handwritten}>I'm sure you're wondering, who's this guy?</h4>
             <div className="d-flex col-12" style={{gap:"5rem"}}>
                 <div style={ImportantText} className="col-12 col-lg-6">

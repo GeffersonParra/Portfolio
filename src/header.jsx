@@ -23,6 +23,11 @@ const Header = ({ toggleTheme, isDarkMode }) => {
     top: "-1rem",
   };
 
+  const linkStyle = {
+    textDecoration: "none",
+    color: isDarkMode ? '#ffffff' : '#080705'
+  }
+
   return (
     <header style={HeaderStyle} className="d-flex align-items-center col-12 px-3">
       <div className="d-flex flex-column col-10 col-lg-3 align-items-center h-100 mt-3 mt-sm-3 mt-md-0">
@@ -46,10 +51,15 @@ const Header = ({ toggleTheme, isDarkMode }) => {
             {isDarkMode ? "Light" : "Dark"}
           </h4>
         </button>
-        <h1>About Me</h1>
-        <h1>Projects</h1>
-        <h1>Contact</h1>
-        <button className={`btn btn-change d-flex flex-column mb-3 mx-auto col-10`}><h4 className="mt-1 text-center col-12">Pricing</h4></button>
+        <a href="#aboutme" style={linkStyle}>
+          <h1>About Me</h1>
+        </a>
+        <a href="#projects" style={linkStyle}>
+          <h1>Projects</h1>
+        </a>
+        <a href="#contact" style={linkStyle}>
+          <h1>Contact</h1>
+        </a>
       </div>
       <div className={`d-none d-lg-flex flex-column flex-lg-row justify-content-end align-items-center col-lg-9 h-100 gap-3 d-lg-flex`}>
         <button
@@ -60,10 +70,15 @@ const Header = ({ toggleTheme, isDarkMode }) => {
             {isDarkMode ? "Light Mode" : "Dark Mode"}
           </h4>
         </button>
-        <h1>About Me</h1>
-        <h1>Projects</h1>
-        <h1>Contact</h1>
-        <button className="btn btn-change d-flex flex-column"><h4 className="mt-1">Pricing</h4></button>
+        <a href="#aboutme" style={linkStyle}>
+          <h1>About Me</h1>
+        </a>
+        <a href="#projects" style={linkStyle}>
+          <h1>Projects</h1>
+        </a>
+        <a href="#contact" style={linkStyle}>
+          <h1>Contact</h1>
+        </a>
       </div>
     </header>
   );

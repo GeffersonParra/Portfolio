@@ -30,7 +30,7 @@ const Contact = ({ isDarkMode }) => {
     }
 
     return (
-        <div>
+        <div id="contact">
             <h4 style={Handwritten}>Let's keep in touch!</h4>
             <div className="d-flex flex-column justify-content-center" style={cardStyle}>
                 <h5 className="text-center mt-2 mb-3">Are you interested in my work? Do you want a specific pricing for your project? You can always contact me at: </h5>

@@ -27,7 +27,7 @@ const Perskills = ({ isDarkMode }) => {
     }
 
     const icons = {
-        fontSize: "110px",
+        fontSize: "5rem",
     }
 
     return (
@@ -37,18 +37,16 @@ const Perskills = ({ isDarkMode }) => {
                 <div className="card col-12 mx-auto" style={cardStyle}>
                     <h1 className="text-start mt-3 col-11 mx-auto">In a personal way...</h1>
                     <div className="flex-wrap d-flex col-11 mx-auto mt-3">
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className='d-flex flex-column col-8 col-lg-9'>
                                 <h2 className="text-start"><b>Time Management</b></h2>
                                 <h4>I have the ability to organize and prioritize tasks effectively, ensuring deadlines are met without compromising quality. I am proactive in planning to optimize my productivity.</h4>
                             </div>
-                            
                             <div className="text-center d-flex justify-content-center align-items-center col-4 col-lg-3">
                                 <i class="bi bi-clock" style={icons}></i>
                             </div>
                         </div>
-                        <br />
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className="text-center d-flex justify-content-center align-items-center col-4 col-lg-3">
                                 <i class="bi bi-card-checklist" style={icons}></i>
                             </div>
@@ -58,7 +56,7 @@ const Perskills = ({ isDarkMode }) => {
                             </div>
                         </div>
                         <br />
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className='d-flex flex-column col-8 col-lg-9'>
                                 <h2 className="text-start"><b>Critical Thinking</b></h2>
                                 <h4>I always analyze the information objectively to take informed decisions. My analytic approach helps me to identify patterns, risks and posibilities.</h4>
@@ -68,7 +66,7 @@ const Perskills = ({ isDarkMode }) => {
                             </div>
                         </div>
                         <br />
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className="text-center d-flex justify-content-center align-items-center col-4 col-lg-3">
                                 <i class="bi bi-compass" style={icons}></i>
                             </div>
@@ -82,7 +80,7 @@ const Perskills = ({ isDarkMode }) => {
                     <br />
                     <h1 className="text-start mt-3 col-11 mx-auto">As a group...</h1>
                     <div className="flex-wrap d-flex col-11 mx-auto mt-3">
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className='d-flex flex-column col-8 col-lg-9'>
                                 <h2 className="text-start"><b>Effective Communication</b></h2>
                                 <h4>I have the ability to express ideas clearly and assertively both verbally and in writing. I actively listen to others to foster mutual understanding and effective collaboration.</h4>
@@ -92,7 +90,7 @@ const Perskills = ({ isDarkMode }) => {
                             </div>
                         </div>
                         <br />
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className="text-center d-flex justify-content-center align-items-center col-4 col-lg-3">
                                 <i class="bi bi-graph-up-arrow" style={icons}></i>
                             </div>
@@ -102,7 +100,7 @@ const Perskills = ({ isDarkMode }) => {
                             </div>
                         </div>
                         <br />
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className='d-flex flex-column col-8 col-lg-9'>
                                 <h2 className="text-start"><b>Leadership</b></h2>
                                 <h4>I have experience leading teams towards success through motivation and strategic decision making. I'm always looking for a positive work environment focused on the results.</h4>
@@ -112,7 +110,7 @@ const Perskills = ({ isDarkMode }) => {
                             </div>
                         </div>
                         <br />
-                        <div className="d-flex mx-auto col-12">
+                        <div className="d-flex mx-auto col-12 mb-5">
                             <div className="text-center d-flex justify-content-center align-items-center col-4 col-lg-3">
                                 <i class="bi bi-mortarboard" style={icons}></i>
                             </div>
